@@ -98,8 +98,8 @@ button{
     .screen{
         background-color: #2C3E50;
         width: 100%;
-        max-width: 200px;
-        height: 50px;
+        max-width: 250px;
+        height: 30px;
         padding: 20px;
         display:flex;
         align-items: center;
@@ -109,7 +109,7 @@ button{
         font-size: 1rem;
     }
     .pad{
-        width: 200px;
+        width: 250px;
         height: 200px;
         background-color: #34495E;
         padding: 20px;
@@ -123,8 +123,8 @@ button{
     }
     button{
         background-color:#ECF0F1;
-        width: 2rem;
-        height: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
         border-radius: 0.3rem;
     }
     .operators{
@@ -134,7 +134,7 @@ button{
         width: auto;
         align-items: center;
         justify-content: center;
-        gap: 5px;
+        gap: 7px;
     }
     .numbers{
         width: auto;
@@ -143,7 +143,7 @@ button{
         padding: 1rem;
         align-items: center;
         justify-content: center;
-        gap: 5px;
+        gap: 7px;
     }
 }
 
@@ -164,7 +164,7 @@ button{
     .screen{
         background-color: #2C3E50;
         width: 100%;
-        max-width: 200px;
+        max-width: 250px;
         height: 30px;
         padding: 20px;
         display:flex;
@@ -175,7 +175,7 @@ button{
         font-size: 1rem;
     }
     .pad{
-        width: 200px;
+        width: 250px;
         height: 200px;
         background-color: #34495E;
         padding: 20px;
@@ -189,8 +189,8 @@ button{
     }
     button{
         background-color:#ECF0F1;
-        width: 2rem;
-        height: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
         border-radius: 0.3rem;
     }
     .operators{
