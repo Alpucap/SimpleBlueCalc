@@ -41,7 +41,7 @@ h1 {
     text-align: center;
     justify-content: center;
     border-radius: 0.5rem 0.5rem 0rem 0rem;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 .pad{
     width: 300px;
@@ -60,7 +60,7 @@ button{
     width: 3rem;
     height: 3rem;
     border-radius: 0.5rem;
-    font-size: 1rem;
+    border: none;
 }
 .operators{
     display: grid;
@@ -84,7 +84,7 @@ button{
 @media screen and (max-width: 768px){
     h1 {
         margin: 30px;
-        font-size: 8rem;
+        font-size: 4rem;
         text-align: center;
         font-family: 'Sacramento', cursive;
     }
@@ -93,24 +93,24 @@ button{
         flex-direction: column; 
         align-items: center;
         width: 100%;
-        max-width: 900px;
+        max-width: 500px;
     }
     .screen{
         background-color: #2C3E50;
         width: 100%;
-        max-width: 800px;
-        height: 200px;
+        max-width: 200px;
+        height: 50px;
         padding: 20px;
         display:flex;
         align-items: center;
         text-align: center;
         justify-content: center;
-        border-radius: 0.5rem 0.5rem 0rem 0rem;
-        font-size: 3rem;
+        border-radius: 0.3rem 0.3rem 0rem 0rem;
+        font-size: 1rem;
     }
     .pad{
-        width: 800px;
-        height: 800px;
+        width: 200px;
+        height: 200px;
         background-color: #34495E;
         padding: 20px;
         position: relative;
@@ -119,14 +119,13 @@ button{
         align-items: center;
         text-align: center;
         justify-content: center;
-        border-radius:  0rem 0rem 0.5rem 0.5rem;
+        border-radius:  0rem 0rem 0.3rem 0.3rem;
     }
     button{
         background-color:#ECF0F1;
-        width: 8rem;
-        height: 8rem;
-        font-size: 2rem;
-        border-radius: 0.5rem;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 0.3rem;
     }
     .operators{
         display: grid;
@@ -135,7 +134,7 @@ button{
         width: auto;
         align-items: center;
         justify-content: center;
-        gap: 10px;
+        gap: 5px;
     }
     .numbers{
         width: auto;
@@ -144,72 +143,72 @@ button{
         padding: 1rem;
         align-items: center;
         justify-content: center;
-        gap: 10px;
+        gap: 5px;
     }
-    @media screen and (max-width: 360px) {
-        h1 {
-            margin: 30px;
-            font-size: 8rem;
-            text-align: center;
-            font-family: 'Sacramento', cursive;
-        }
-        .calculator{
-            display: flex;
-            flex-direction: column; 
-            align-items: center;
-            width: 100%;
-            max-width: 900px;
-        }
-        .screen{
-            background-color: #2C3E50;
-            width: 100%;
-            max-width: 800px;
-            height: 200px;
-            padding: 20px;
-            display:flex;
-            align-items: center;
-            text-align: center;
-            justify-content: center;
-            border-radius: 0.5rem 0.5rem 0rem 0rem;
-            font-size: 3rem;
-        }
-        .pad{
-            width: 800px;
-            height: 800px;
-            background-color: #34495E;
-            padding: 20px;
-            position: relative;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            text-align: center;
-            justify-content: center;
-            border-radius:  0rem 0rem 0.5rem 0.5rem;
-        }
-        button{
-            background-color:#ECF0F1;
-            width: 8rem;
-            height: 8rem;
-            font-size: 2rem;
-            border-radius: 0.5rem;
-        }
-        .operators{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            padding: 1rem;
-            width: auto;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-        }
-        .numbers{
-            width: auto;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            padding: 1rem;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-        }
+}
+
+@media screen and (max-width: 360px){
+    h1 {
+        margin: 30px;
+        font-size: 4rem;
+        text-align: center;
+        font-family: 'Sacramento', cursive;
+    }
+    .calculator{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        width: 100%;
+        max-width: 500px;
+    }
+    .screen{
+        background-color: #2C3E50;
+        width: 100%;
+        max-width: 200px;
+        height: 30px;
+        padding: 20px;
+        display:flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border-radius: 0.3rem 0.3rem 0rem 0rem;
+        font-size: 1rem;
+    }
+    .pad{
+        width: 200px;
+        height: 200px;
+        background-color: #34495E;
+        padding: 20px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border-radius:  0rem 0rem 0.3rem 0.3rem;
+    }
+    button{
+        background-color:#ECF0F1;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 0.3rem;
+    }
+    .operators{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1rem;
+        width: auto;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+    }
+    .numbers{
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 1rem;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
     }
 }
