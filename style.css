@@ -60,6 +60,7 @@ button{
     width: 3rem;
     height: 3rem;
     border-radius: 0.5rem;
+    font-size: 1rem;
 }
 .operators{
     display: grid;
@@ -97,19 +98,19 @@ button{
     .screen{
         background-color: #2C3E50;
         width: 100%;
-        max-width: 600px;
-        height: 100px;
+        max-width: 800px;
+        height: 200px;
         padding: 20px;
         display:flex;
         align-items: center;
         text-align: center;
         justify-content: center;
         border-radius: 0.5rem 0.5rem 0rem 0rem;
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .pad{
-        width: 600px;
-        height: 600px;
+        width: 800px;
+        height: 800px;
         background-color: #34495E;
         padding: 20px;
         position: relative;
@@ -122,8 +123,9 @@ button{
     }
     button{
         background-color:#ECF0F1;
-        width: 6rem;
-        height: 6rem;
+        width: 8rem;
+        height: 8rem;
+        font-size: 2rem;
         border-radius: 0.5rem;
     }
     .operators{
